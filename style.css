@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -12,7 +15,7 @@ header {
     text-align: center;
 }
 
-nav ul li u {
+nav ul {
     list-style: none;
     padding: 0;
 }
@@ -80,3 +83,10 @@ footer {
     opacity: 1;
     right: 0;
   }
+
+  iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
