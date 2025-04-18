@@ -40,49 +40,11 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
+    margin-top: auto;
 }
-
-#learnMore {
-    border-radius: 4px;
-    background-color: #333;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  #learnMore span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
- #learnMore span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  #home > #learnMore:hover span {
-    padding-right: 25px;
-  }
-
-  #learnMore:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
 
   iframe {
     max-width: 100%;
